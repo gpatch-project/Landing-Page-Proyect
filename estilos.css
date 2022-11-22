@@ -7,9 +7,7 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     background-repeat:no-repeat ;
-    
 }
-
 body {
     font-family: 'open sans';
 }
@@ -30,7 +28,13 @@ main .conoce-lahistoria{
     display: flex;
     justify-content: space-evenly;
 }
-
+a:hover
+{
+  color: #E49E00;
+  border-top: 2px solid #E49E00;
+  border-bottom: 2px solid #E49E00;
+  padding: 3px;
+}
 .imagen-la-historia{
     width: 30%;
 }
